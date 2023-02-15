@@ -188,7 +188,7 @@ main .site-title h1,h3{
 
 main .site-title .btn{
     margin: 1.8rem;
-    background: yellowgreen;
+    background: rgb(9, 244, 221);
 }
 
 main .site-title .btn:hover{
