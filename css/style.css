@@ -160,6 +160,63 @@ background-color: var(--midnight);
 }
 
 
+/* 
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+   justify-content: center;
+   align-items: center;
+   perspective: 1000px;
+   background: #f6f7fc; 
+}
+.card{
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    margin: 0.5rem;
+    text-align: center;
+    line-height: 8rem;
+    color: #ecf0f1;
+    font-family: verdana;
+border-radius: 0.8rem;
+transform-style: preserve-3d;
+}
+
+.face{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0.8rem;
+    background-size: cover;
+    background-position:center center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.face--front{
+    background: #2c3e50;
+    font-size: 3rem;
+}
+
+.face--back{
+    background: #2c3e50;
+    font-size: 1.5rem;
+    transform: rotateX(180deg);
+
+}
+
+.card:hover .face--front{
+    transform: rotateX(-180deg);
+}
+
+.card:hover .face--back{
+    transform: rotateX(0deg);
+
+ */
+
+
 
 /* ********x************navbar**********x********* */
 
@@ -183,20 +240,29 @@ main .site-title .site-backgraound{
 
 main .site-title h1,h3{
    margin: .3rem;
-
 }
+
+h3{
+    
+    color: white;
+}
+
+h1 {
+color: red;
+}
+
 
 main .site-title .btn{
     margin: 1.8rem;
     background: rgb(5, 216, 244);
 }
 
+
+
 main .site-title .btn:hover{
     background: transparent
-    border: 1px solid var(--bg-color);
+    border: 1px solid var(--bg-color)
     color:var(--bg-color);
-    
-
 }
 
 /* ******X******** Site Title *******X****** */
