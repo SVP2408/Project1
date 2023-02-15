@@ -43,23 +43,36 @@ ul{
 
 h1{
     font-family: var(--Lexend);
-    font-size: 2.5rem;
+    font-size: 4.5rem;
 }
+h1:hover {
+    color: rgb(9, 250, 214);
+  }
+h3:hover{
+    color: rgb(225, 253, 10);
+}
+  
 h2{
     font-family: var(--Lexend);
 }
 h3{
     font-family: var(--Abel);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
+
 button.btn{
-    border: none;
+    border: 2px;
     border-radius: 2rem;
-    padding: 1rem 3rem;
-    font-size: 1rem;
+    padding: 1rem 1.7rem;
+    font-size: 1.5rem;
     font-family: var(--Livvic);
-    cursor: pointer;
+    cursor:pointer;
 }
+
+button:hover{
+    color: yellowgreen;
+}
+
 
 span{
     font-family: var(--Abel);
