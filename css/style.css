@@ -188,13 +188,14 @@ main .site-title h1,h3{
 
 main .site-title .btn{
     margin: 1.8rem;
-    background: rgb(9, 244, 221);
+    background: rgb(5, 216, 244);
 }
 
 main .site-title .btn:hover{
-    background: transparent;
+    background: transparent
     border: 1px solid var(--bg-color);
     color:var(--bg-color);
+    
 
 }
 
