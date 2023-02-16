@@ -52,9 +52,35 @@ h3:hover{
     color: rgb(225, 253, 10);
 }
   
-h2{
-    font-family: var(--Lexend);
+h1{
+    transition: color 0.5s ease;
 }
+
+h1:hover {
+    color: rgb(22, 248, 6);
+  }
+
+
+  .btn {
+    perspective: 1000px;
+    transition: transform 1.5s;
+  }
+  
+  .btn:hover {
+    transform: rotateY(360deg)
+  }
+  
+  h1 {
+    position: relative;
+  }
+  
+ 
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+  }
+  
 h3{
     font-family: var(--Abel);
     font-size: 1.5rem;
@@ -70,7 +96,7 @@ button.btn{
 }
 
 button:hover{
-    color: yellowgreen;
+    color: white;
 }
 
 
@@ -529,13 +555,13 @@ footer.footer .newsletter .form-element input{
 
 footer.footer .newsletter .form-element span{
     background: var(--sky);
-    padding: .5rem .7rem;
+    padding: .6rem .7rem;
     cursor: pointer;
 }
 
 footer.footer .instagram div > img{
     display: inline-block;
-    width: 25%;
+    width: 5%;
     height: 50%;
     margin: .3rem .4rem;
 
