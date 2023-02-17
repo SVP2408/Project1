@@ -303,6 +303,7 @@ main .site-title .btn:hover{
     color:var(--white);
 }
 
+
 /* ******X******** Site Title *******X****** */
 /* *************** Blog Carousel ************* */
 
@@ -332,6 +333,15 @@ main .site-title .btn:hover{
      main .blog-content .blog-title{
         padding: 2rem 0;
      }
+
+     main .blog-content .blog-title h3{
+        color: var(--bg-color);
+     }
+     
+     main .blog-content .blog-title button:hover{
+        color: var(--bg-color);
+     }
+
      
      main .blog-content .btn-blog{
         padding: .7rem 2rem;
