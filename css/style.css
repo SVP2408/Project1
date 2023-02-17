@@ -28,7 +28,7 @@ html,body{
 /* ********************Global Classes******************* */
 a{ 
     text-decoration: none;
-    color:var(--text-gray)
+    color:var(--text-gray);
  }
 
  .flex-row{
@@ -66,9 +66,6 @@ h1:hover {
     transition: transform 1.5s;
   }
   
-  .btn:hover {
-    transform: rotateY(360deg)
-  }
   
   h1 {
     position: relative;
@@ -97,6 +94,7 @@ button.btn{
 
 button:hover{
     color: white;
+    border: 1px ;
 }
 
 
@@ -299,9 +297,10 @@ main .site-title .btn{
 
 
 main .site-title .btn:hover{
-    background: transparent
-    border: 1px solid var(--bg-color)
-    color:var(--bg-color);
+    background: transparent;
+    border: 3px solid var(--white);
+    background-color: var(--bg-color);
+    color:var(--white);
 }
 
 /* ******X******** Site Title *******X****** */
