@@ -208,7 +208,7 @@ align-items: center;
 
 .searchText{
     width: 0rem;
-    border-radius: 5rem;
+    border-radius: 1rem;
     border: none;
 outline: none;
 transition: all 0.2s linear;
@@ -229,11 +229,11 @@ padding-left: 1rem;
 place-items: center;
 }
 .searchBox:hover >.searchText{
-    width: 25rem;
-    padding: 2rem;
-    box-shadow: 0 2rem 2rem --1.5rem rgba(0, 0, 0, 0.5);
+    width: 14rem ;
+    height: 0rem;
+   padding: 2rem;
     background-color: var(--sky);
-    border: 1rem solid var(--bg-color);
+    border: .1rem solid var(--bg-color);
 
 }
 .searchBox:hover >.searcgBtn{
