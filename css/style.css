@@ -147,32 +147,18 @@ font-size: 18px;
 font-weight: bold;
 margin-right: 25px;
 }
-button{
+.b1{
     background-color: black;
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
     width: 90px;
 }
-button a{
+.b1 a{
     color: white;
 font-weight: bold;
 font-size: 15px;
 }
-.nav .social{
-    padding: 1.4rem 0;
-}
-.nav .social i{
-    padding: 0 .2rem;
-}
-
-.nav .social{
-    padding: 1.4rem 0;
-}
-.nav .social i{
-    padding: 0 .2rem;
-}
-
 
 .searchBox{
     position: relative;
@@ -185,10 +171,10 @@ align-items: center;
 
 .searchText{
     width: 0rem;
-    border-radius: 1rem;
+    border-radius: 1.6rem;
     border: none;
-outline: none;
-transition: all 0.2s linear;
+    outline: none;
+    transition: all 0.2s linear;
 }
 
 .searchText:focus{
@@ -197,24 +183,24 @@ transition: all 0.2s linear;
 
 }
 .searcgBtn{
-height: 5rem;
-width: 1rem;
-color: red;
+ padding: 1.4rem 0;
+color: var(--bg-color);
 position: absolute;
 display: grid;
-padding-left: 1rem;
+padding-left: 6rem;
 place-items: center;
 }
-.searchBox:hover >.searchText{
-    width: 14rem ;
+
+.searchBox:hover >.searchText {
+    width: 10rem ;
     height: 0rem;
-   padding: 2rem;
+    padding: 2rem;
     background-color: var(--sky);
     border: .1rem solid var(--bg-color);
 
 }
 .searchBox:hover >.searcgBtn{
-color: royalblue;
+color: var(--white);
 }
 
 
