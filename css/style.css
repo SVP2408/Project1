@@ -116,78 +116,50 @@ p{
 }
 /* *********x***********Global Classes********x*********** */
 /* ********************navbar******************* */
-.nav{
-    background:white;
-    padding: 0 2rem;
-    height: 0rem;
-    min-height: 10vh;
-    overflow: hidden;
-    transition: height 1s ease-in-out;
+.navbar{
+    background-color: crimson;
+    font-family: calibri;
+    
+    
+    
 }
-
-
-.nav .nav-menu{
+.navdiv{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
-
-.nav .nav-menu .nav-brand img{
-    width: 1.4rem;
-    clip-path: circle();
+.Logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline-block;
 }
 
-.nav .toggle-collapse{
-    position: absolute;
-    top:0%;
-    width: 90%;
-    cursor: pointer;
-    display: none;
+li a{
+color: white;
+font-size: 18px;
+font-weight: bold;
+margin-right: 25px;
+}
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a{
+    color: white;
+font-weight: bold;
+font-size: 15px;
 }
 
-.nav .toggle-collapse .toggle-icons{
-    display: flex;
-    justify-content: flex-end;
-    padding: 1.7rem 0;
 
-}
 
-.nav .toggle-collapse .toggle-icons i{
-   font-size: 1.4rem;
-   color:var(--text-gray);
-}
-
-.nav .nav-items{
-    display: flex;
-    margin:0;
-}
-
-.collapse{
-    height: 30rem;
-
-}
-
-.nav .nav-items .nav-link{
-    padding: 1.6rem 1rem;
-    font-size: 1.1rem;
-    position: relative;
-    font-family: var(--Abel);
-    font-size: 1.1rem;
-}
-
-.nav .nav-items .nav-link:hover{
-background-color: var(--midnight);
-}
-
-.nav .nav-items .nav-link:hover a{
-    color: var(--white);
-    /*text-decoration: underline;*/
-}
-.nav .nav-brand{
-    font-size:1.6rem;
-    padding:1rem 0;
-    display: block;
-    font-family: var(--Lexend);
-    font-size: 1.6rem;
-}
 
 .nav .social{
     padding: 1.4rem 0;
@@ -222,7 +194,7 @@ transition: all 0.2s linear;
 .searcgBtn{
 height: 5rem;
 width: 1rem;
-color: var(--bg-color);
+color: red;
 position: absolute;
 display: grid;
 padding-left: 1rem;
@@ -237,8 +209,6 @@ place-items: center;
 
 }
 .searchBox:hover >.searcgBtn{
-
-
 color: royalblue;
 }
 
