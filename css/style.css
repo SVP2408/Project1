@@ -116,32 +116,28 @@ p{
 }
 /* *********x***********Global Classes********x*********** */
 /* ********************navbar******************* */
-
-
 header{
-    
-
+    position: fixed;
     top: 0;
     left: 0;
-    width:100%;
-    bottom: 10%;
-    padding: 10px -5px;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:#162938;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-    display: flex;
-    
+    border: 5PX solid bisque;
 }
 .logo{
     font-size: 2rem;
-    color:black;
+    color: #fff;
     user-select: none;
 }
 .navigation a{
 position: relative;
-font-size: 1.1rem;
-color: black;
+font-size: 1.50rem;
+color: #fff;
 text-decoration: none;
 font-weight: 500;
 margin-left: 40px;
@@ -155,7 +151,7 @@ margin-left: 40px;
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background:#fff;
+    background: #fff;
     border-radius: 5px;
     transform-origin: right;
     transform: scaleX(0);
@@ -171,30 +167,33 @@ margin-left: 40px;
 
 .navigation .btnLogin-popup{
     width: 130px;
-    height: 40px;
+    height: 50px;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid #fff;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 1.1rem;
-    color: black;
+    font-size: 1.50rem;
+    color: #fff;
     font-weight: 400;
     margin-left: 40px;
     transition: .5s;
 }
 
 .navigation .btnLogin-popup:hover{
-    background:#fff;
-    color: #7cb1da;
+    background: #fff;
+    color: #162938;
 }
+
+
+
 
 .searchBox{
     position: relative;
     display: flex;
     justify-content: center;
 align-items: center;
-    margin-top: 50%;
+    
 }
 
 
