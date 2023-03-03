@@ -189,12 +189,12 @@ margin-left: 40px;
     color: #7cb1da;
 }
 
-/* .searchBox{
+.searchBox{
     position: relative;
     display: flex;
     justify-content: center;
 align-items: center;
-    */
+    margin-top: 50%;
 }
 
 
