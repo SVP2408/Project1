@@ -123,13 +123,13 @@ header{
 
     top: 0;
     left: 0;
-    width: 100%;
+    width:100%;
+    bottom: 10%;
     padding: 10px -5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-    
     display: flex;
     
 }
