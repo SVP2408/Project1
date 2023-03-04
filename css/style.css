@@ -234,7 +234,7 @@ place-items: center;
 
 }
 .searchBox:hover >.searcgBtn{
-color: var(--white);
+color:red;
 }
 
 
