@@ -118,25 +118,30 @@ p{
 /* ********************navbar******************* */
 header{
     position: fixed;
-    left: 10;
-    right: 10;
-    width: 99%;
-    padding: -0.100% ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0rem 100px;
+    background-color:#162938;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-    display: flex;
-
+    border: 5PX solid bisque;
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
 }
 .logo{
-    font-size: 2.75rem;
+    font-size: 2rem;
     color: #fff;
     user-select: none;
 }
 .navigation a{
 position: relative;
-font-size: 2rem;
+font-size: 1.50rem;
 color: #fff;
 text-decoration: none;
 font-weight: 500;
@@ -167,15 +172,13 @@ margin-left: 40px;
 
 .navigation .btnLogin-popup{
     width: 130px;
-    height: 60px;
-    padding-left: 2%;
-    justify-content: space-between;
+    height: 50px;
     background: transparent;
-    border:3px solid #fff;
+    border: 2px solid #fff;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.50rem;
     color: #fff;
     font-weight: 400;
     margin-left: 40px;
@@ -186,6 +189,7 @@ margin-left: 40px;
     background: #fff;
     color: #162938;
 }
+
 
 
 
