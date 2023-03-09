@@ -308,6 +308,7 @@ main .site-title{
     height: 110vh;
     display: flex;
     justify-content: center;
+    border-bottom:.5rem solid var(--bg-color) ;
 }
 
 main .site-title .site-backgraound{
@@ -356,6 +357,7 @@ main .site-title .btn:hover{
         height: 100vh;
         width: 100%;
         background-size: 65%;
+      
      }
 
      main .blog .blog-post{
