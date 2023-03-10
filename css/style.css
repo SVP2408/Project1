@@ -117,6 +117,19 @@ p{
 /* *********x***********Global Classes********x*********** */
 /* ********************navbar******************* */
 header {
+    box-sizing: border-box;
+    line-height: 1.5em;
+  
+    font-size: 20px;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  
+    margin: 0px;
+      font-family: "Open Sans", sans-serif;
+
+
+
+
       background-color: 
   #ffffff;
       box-shadow: 0 10px 15px -3px 
@@ -134,8 +147,9 @@ header {
       justify-content: space-between;
   }
   header .logo img {
-      height: 55px;
+      height: 59px;
       display: block;
+      margin-right: 100%;
   }
   
   .navbar {
